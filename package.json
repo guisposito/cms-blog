@@ -11,10 +11,28 @@
   "dependencies": {
     "autoprefixer": "10.4.14",
     "curl": "^0.1.4",
+    "graphql": "^16.6.0",
+    "graphql-request": "^6.0.0",
+    "html-react-parser": "^3.0.16",
+    "moment": "^2.29.4",
     "next": "13.4.2",
     "postcss": "8.4.23",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-multi-carousel": "^2.8.3",
+    "sass": "^1.62.1",
     "tailwindcss": "3.3.2"
-  }
+  },
+  "description": "This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).",
+  "main": "next.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guisposito/cms-blog.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/guisposito/cms-blog/issues"
+  },
+  "homepage": "https://github.com/guisposito/cms-blog#readme"
 }
