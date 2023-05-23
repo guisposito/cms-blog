@@ -13,7 +13,7 @@ export default function Home() {
         <title>CMS Blog 2</title>
         <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
       </Head>
-      <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 bg-gray-300">
+      <div className="grid grid-cols-1 lg:grid-cols-12 gap-12">
         <div className="lg:col-span-8 col-span-1">
           {posts.map((post, index) =>(
             <div className="">
