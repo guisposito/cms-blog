@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import {PostCard , Categories, PostWidget} from "../components/Index";
+import { Header } from '../components/Index';
 
 const posts = [
   {title: 'React Testing', excerpt: 'Learn React Testing'},
@@ -13,6 +14,9 @@ export default function Home() {
         <title>CMS Blog 2</title>
         <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
       </Head>
+      <Header>
+        
+      </Header>
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-12">
         <div className="lg:col-span-8 col-span-1">
           {posts.map((post, index) =>(
